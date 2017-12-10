@@ -7,4 +7,4 @@
 
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
-alias config='usr/bin/git --git-dir=/home/tsandstr/.cfg --work-trees=/home/tsandstr'
+alias config='/usr/bin/git --git-dir=/home/tsandstr/.cfg --work-tree=/home/tsandstr'
