@@ -9,7 +9,7 @@ alert=		#ebcb8b
 
 [bar/top]
 
-monitor=	DVI-D-2
+monitor=	DVI-D-1
 height=		24
 fixed-center=	true
 background=	${colors.background}
