@@ -10,14 +10,9 @@ mpd &
 pkill xsettingsd
 xsettingsd &
 
-$HOME/.fehbg
-
 xsetroot -cursor_name left_ptr
 
 xrdb -merge $HOME/.Xresources
-
-steam &
-urxvt -e ncmpc &
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 
@@ -30,9 +25,3 @@ bspc config gapless_monocle      true
 bspc config focus_follows_pointer	true
 
 bspc config external_rules_command "$(which external_rules)"
-
-bspc rule -a Conky manage=off
-bspc rule -a dontstarve_steam state=fullscreen
-
-bspc rule -a ncmpc desktop=^1
-bspc rule -a Steam desktop=^2
